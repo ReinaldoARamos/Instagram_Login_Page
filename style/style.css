@@ -78,3 +78,59 @@ body{
 .profile img{
     height:6rem;
 }
+
+.Instagram-Login{
+    background-color: #0095f6;
+    color: #ffff;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.Instagram-Logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link{
+    color: #0095f6;
+}
+
+.get-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+   
+}   
+
+.app-download{
+ 
+    height: 3rem;
+    width: 10rem;
+    background-size: cover ;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('../img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('../img/googleplay-button.png');
+}
+
