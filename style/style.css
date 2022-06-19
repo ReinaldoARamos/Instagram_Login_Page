@@ -134,3 +134,24 @@ body{
     background-image: url('../img/googleplay-button.png');
 }
 
+/*mobile*/
+
+@media(max-width:1024px){
+    .instagramWrapper{
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 650px){
+            .instagramWrapper{
+                width: 90%;
+            }
+
+            .instagramCell{
+                display: none;
+            }
+            .instagramContinue{
+                width: 100%;
+            }
+}
