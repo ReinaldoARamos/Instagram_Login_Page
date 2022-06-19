@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     background-color: rgb(243, 243, 243);
     margin: 0;
-    padding: 0;
+    padding: 100px 0px ;
     display: flex;    
     justify-content: center;
 }
@@ -31,10 +31,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 50%;
 
 }
 
 .instagramCell img{
     height: 50rem
+}
+.instagramContinue{
+    display: flex;
+    align-items: center; /*horizontal*/
+    justify-content: space-between; /*vertical*/
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid:#fff;
 }
