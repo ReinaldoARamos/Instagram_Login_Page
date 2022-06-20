@@ -65,6 +65,7 @@ body{
 
 .instaLogo{
     height: 3rem;
+    
 }
 
 .profile{
@@ -73,6 +74,7 @@ body{
     align-items: center;
     border-radius: 50%;
     overflow: hidden; /*esconde vazamentos da div */
+    margin-top: 30px ;
 }
 
 .profile img{
@@ -80,6 +82,7 @@ body{
 }
 
 .Instagram-Login{
+    margin-top: 15px;
     background-color: #0095f6;
     color: #ffff;
     padding: 8px;
